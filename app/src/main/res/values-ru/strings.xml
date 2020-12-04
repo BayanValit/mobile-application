@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор чаевых</string>
+    <string name="total_str">Всего</string>
+    <string name="enter_amount_str">Введите сумму</string>
+    <string name="percent_str">15%</string>
+    <string name="tip_str">Чаевые</string>
+    <string name="input_text_str">Введите текст</string>
+</resources>
