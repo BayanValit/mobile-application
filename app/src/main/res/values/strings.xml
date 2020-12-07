@@ -1,8 +1,3 @@
 <resources>
-    <string name="app_name">Tip calculator</string>
-    <string name="total_str">Total</string>
-    <string name="enter_amount_str">Enter amount</string>
-    <string name="percent_str">15%</string>
-    <string name="tip_str">Tip</string>
-    <string name="input_text_str">Input text</string>
+    <string name="app_name">Phrase generator</string>
 </resources>
