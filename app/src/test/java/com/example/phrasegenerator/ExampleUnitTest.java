@@ -1,4 +1,4 @@
-package com.example.mobileApplication;
+package com.example.phrasegenerator;
 
 import org.junit.Test;
 

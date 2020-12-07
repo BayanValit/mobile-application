@@ -1,5 +1,6 @@
 !.gitignore
 *.iml
+*.log
 .gradle
 .idea
 /local.properties
