@@ -1,4 +1,4 @@
-package com.example.mobileApplication;
+package com.example.rvdummy;
 
 import org.junit.Test;
 
