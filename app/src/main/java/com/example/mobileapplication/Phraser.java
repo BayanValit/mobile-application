@@ -1,7 +1,7 @@
 package com.example.mobileapplication;
 
 public class Phraser {
-    public static String PhraserGen() {
+    public static String PhraserGen(String position) {
         //Создайте три набора слов для выбора. Можете добавлять собственные слова!
         String[] wordListOne = {"круглосуточный", "трех-звенный",
                 "30-футовьй", "взаимный", "обоюдный выигрыш", "фронтэнд",
@@ -28,9 +28,23 @@ public class Phraser {
         int r2 = (int) (Math.random() * twoLength) ;
         int r3 = (int) (Math.random() * threeLength);
         //Теперь строим фразу
-        // TODO 1.1 Поставьте Breakpoint
         String result = wordListOne[rl] + " " +
                 wordListTwo[r2] + " " + wordListThree[r3];
-        return "Всё, что нам нужно - это " + result;
+
+        switch (position) {
+            case "before":
+                return capitalize(result) + " - это всё, что нам нужно.";
+            case "after":
+                return "Всё, что нам нужно - это " + result + ".";
+            default:
+                return capitalize(result) + ".";
+        }
+    }
+
+    public static String capitalize(String phrase){
+        if (phrase.isEmpty()) {
+            return "";
+        }
+        return phrase.substring(0, 1).toUpperCase() + phrase.substring(1);
     }
 }

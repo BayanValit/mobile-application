@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClick(View sender) {
-        TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText(Phraser.PhraserGen());
+        TextView tv_result_before = (TextView) findViewById(R.id.tv_result_before);
+        TextView tv_result_after = (TextView) findViewById(R.id.tv_result_after);
+        tv_result_before.setText(Phraser.PhraserGen("before"));
+        tv_result_after.setText(Phraser.PhraserGen("after"));
     }
 }
