@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Phrase generator</string>
+    <string name="button_name">Generate</string>
 </resources>

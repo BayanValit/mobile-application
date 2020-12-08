@@ -29,7 +29,8 @@ public class Phraser {
         int r3 = (int) (Math.random() * threeLength);
         //Теперь строим фразу
         // TODO 1.1 Поставьте Breakpoint
-        return wordListOne[rl] + " " +
+        String result = wordListOne[rl] + " " +
                 wordListTwo[r2] + " " + wordListThree[r3];
+        return "Всё, что нам нужно - это " + result;
     }
 }
