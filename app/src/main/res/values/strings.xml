@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MobileApplication</string>
+    <string name="buttonClick_but_name">ButtonClick</string>
+    <string name="buttonClick_tv_name">ButtonClickTextView</string>
+    <string name="commonGet_tv_name">CommonGesturesButton</string>
+    <string name="toolbar_name"></string>
+    <string name="subtitle_ButClick">Button Click</string>
+    <string name="subtitle_MotEvent">Motion Event</string>
+    <string name="subtitle_ComGestures">Common Gestures</string>
 </resources>
