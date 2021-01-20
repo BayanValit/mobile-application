@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Phrase generator"
+rootProject.name = "MobileApplication"
