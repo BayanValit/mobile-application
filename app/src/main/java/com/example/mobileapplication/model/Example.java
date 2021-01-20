@@ -2,15 +2,15 @@ package com.example.mobileapplication.model;
 
 public class Example {
 
-    private Photo photos;
+    private Photos photos;
 
     private String stat;
 
-    public Photo getPhotos() {
+    public Photos getPhotos() {
         return photos;
     }
 
-    public void setPhotos(Photo photos) {
+    public void setPhotos(Photos photos) {
         this.photos = photos;
     }
 

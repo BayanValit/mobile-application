@@ -1,12 +1,10 @@
 package com.example.mobileapplication;
 
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.mobileapplication.model.Example;
 import com.example.mobileapplication.model.Photo;
 import com.squareup.picasso.Picasso;
